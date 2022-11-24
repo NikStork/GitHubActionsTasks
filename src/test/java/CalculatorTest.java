@@ -14,4 +14,10 @@ public class CalculatorTest {
     void difference() {
         assertEquals(1, calculator.DiffcalculationsOperations(2, 1));
     }
+
+    @Test
+    void multiplication() {
+        assertEquals(25, calculator.MultcalculationsOperations(5, 5));
+    }
+
 }
