@@ -22,6 +22,6 @@ public class CalculatorTest {
 
     @Test
     void division() {
-        assertEquals(2, calculator.DelcalculationsOperations(1, 1));
+        assertEquals(2, calculator.DelcalculationsOperations(10, 5));
     }
 }
