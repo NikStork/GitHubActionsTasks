@@ -20,4 +20,8 @@ public class CalculatorTest {
         assertEquals(25, calculator.MultcalculationsOperations(5, 5));
     }
 
+    @Test
+    void division() {
+        assertEquals(2, calculator.DelcalculationsOperations(1, 1));
+    }
 }
