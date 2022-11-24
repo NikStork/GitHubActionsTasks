@@ -9,4 +9,9 @@ public class CalculatorTest {
     void additional() {
         assertEquals(2, calculator.AddcalculationsOperations(1, 1));
     }
+
+    @Test
+    void difference() {
+        assertEquals(1, calculator.DiffcalculationsOperations(2, 1));
+    }
 }
